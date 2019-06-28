@@ -1,0 +1,32 @@
+libelf_next_prime.o: \
+ /home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/libelf/libelf_next_prime.c \
+ /usr/include/stdc-predef.h ../config.h \
+ /home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/lib/eu-config.h \
+ /home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/libelf/../lib/next_prime.c \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+/home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/lib/eu-config.h:
+
+/home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/libelf/../lib/next_prime.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
+libelf_next_prime.os: \
+ /home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/libelf/libelf_next_prime.c \
+ /usr/include/stdc-predef.h ../config.h \
+ /home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/lib/eu-config.h \
+ /home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/libelf/../lib/next_prime.c \
+ /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h
+
+/usr/include/stdc-predef.h:
+
+../config.h:
+
+/home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/lib/eu-config.h:
+
+/home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils/src/LibElf/libelf/../lib/next_prime.c:
+
+/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
