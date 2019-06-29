@@ -508,8 +508,13 @@ extern int __elf64_updatefile (Elf *elf, int change_bo, size_t shnum)
 /* Alias for exported functions to avoid PLT entries, and
    rdlock/wrlock variants of these functions.  */
 extern int __elf_end_internal (Elf *__elf) attribute_hidden;
+
 extern Elf *__elf_begin_internal (int __fildes, Elf_Cmd __cmd, Elf *__ref)
      attribute_hidden;
+/* Weijie: add declaration of debugging func */
+extern Elf *__elf_begin_dbg_internal (int __fildes, Elf_Cmd __cmd, Elf *__ref, void (*pPrint)(void))
+     attribute_hidden;
+
 extern Elf32_Ehdr *__elf32_getehdr_wrlock (Elf *__elf) internal_function;
 extern Elf64_Ehdr *__elf64_getehdr_wrlock (Elf *__elf) internal_function;
 extern Elf32_Ehdr *__elf32_newehdr_internal (Elf *__elf) attribute_hidden;
