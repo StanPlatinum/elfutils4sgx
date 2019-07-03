@@ -1236,8 +1236,10 @@ elf_begin_dbg (int fildes, Elf_Cmd cmd, Elf *ref, void (*pPrint)(void))
 
 		case ELF_C_READ:
 		case ELF_C_READ_MMAP:
+
 			/* Weijie: test here */
 			pPrint();
+
 			if (ref != NULL)
 				retval = lock_dup_elf (fildes, cmd, ref);
 			else
