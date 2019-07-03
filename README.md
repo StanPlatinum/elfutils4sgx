@@ -2,6 +2,6 @@
 
 ~~actually, the main dir should be ./src, and the build dir is ./src/LibElf-build~~
 
-# if we don't use libelf to analysis the elf format file, then we need a trampoline/springboard (for musl libc to invoke syscall).
+if we don't use libelf to analysis the elf format file, then we need a trampoline/springboard (for musl libc to invoke syscall).
 
-# the source code is in the libelf dir
+the source code is in the libelf dir
