@@ -1,1 +1,0 @@
-cmd='CFLAGS=-g;<SOURCE_DIR>/configure;--enable-install-elfh;--enable-shared;--prefix=/home/liuweijie/dyninst4sgxminidep/dyninst-build/elfutils'
