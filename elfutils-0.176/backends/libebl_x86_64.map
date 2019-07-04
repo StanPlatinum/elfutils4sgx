@@ -1,1 +1,0 @@
-ELFUTILS_0.176 { global: x86_64_init; local: *; };
