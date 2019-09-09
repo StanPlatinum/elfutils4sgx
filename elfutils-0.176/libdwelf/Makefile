@@ -206,13 +206,13 @@ CTAGS = ctags
 am__DIST_COMMON = $(srcdir)/Makefile.in $(top_srcdir)/config/depcomp \
 	$(top_srcdir)/config/eu.am ChangeLog
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/liuweijie/elfutils4sgx/elfutils-0.176/config/missing aclocal-1.15
+ACLOCAL = ${SHELL} /root/elfutils4sgx/elfutils-0.176/config/missing aclocal-1.15
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 0
 AR = ar
-AUTOCONF = ${SHELL} /home/liuweijie/elfutils4sgx/elfutils-0.176/config/missing autoconf
-AUTOHEADER = ${SHELL} /home/liuweijie/elfutils4sgx/elfutils-0.176/config/missing autoheader
-AUTOMAKE = ${SHELL} /home/liuweijie/elfutils4sgx/elfutils-0.176/config/missing automake-1.15
+AUTOCONF = ${SHELL} /root/elfutils4sgx/elfutils-0.176/config/missing autoconf
+AUTOHEADER = ${SHELL} /root/elfutils4sgx/elfutils-0.176/config/missing autoheader
+AUTOMAKE = ${SHELL} /root/elfutils4sgx/elfutils-0.176/config/missing automake-1.15
 AWK = mawk
 BZ2_LIB = 
 CC = gcc
@@ -245,16 +245,16 @@ INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
 LDFLAGS = 
-LEX = ${SHELL} /home/liuweijie/elfutils4sgx/elfutils-0.176/config/missing flex
+LEX = ${SHELL} /root/elfutils4sgx/elfutils-0.176/config/missing flex
 LEXLIB = 
 LEX_OUTPUT_ROOT = 
 LIBEBL_SUBDIR = elfutils
-LIBLZMA = liblzma
+LIBLZMA = 
 LIBOBJS = 
 LIBS = 
 LTLIBOBJS = 
 MAINT = #
-MAKEINFO = ${SHELL} /home/liuweijie/elfutils4sgx/elfutils-0.176/config/missing makeinfo
+MAKEINFO = ${SHELL} /root/elfutils4sgx/elfutils-0.176/config/missing makeinfo
 MKDIR_P = /bin/mkdir -p
 MODVERSION = Build for elfutils 176 x86_64-pc-linux-gnu
 MSGFMT = /usr/bin/msgfmt
@@ -282,10 +282,10 @@ XGETTEXT_015 = /usr/bin/xgettext
 XGETTEXT_EXTRA_OPTIONS = 
 YACC = yacc
 YFLAGS = 
-abs_builddir = /home/liuweijie/elfutils4sgx/elfutils-0.176/libdwelf
-abs_srcdir = /home/liuweijie/elfutils4sgx/elfutils-0.176/libdwelf
-abs_top_builddir = /home/liuweijie/elfutils4sgx/elfutils-0.176
-abs_top_srcdir = /home/liuweijie/elfutils4sgx/elfutils-0.176
+abs_builddir = /root/elfutils4sgx/elfutils-0.176/libdwelf
+abs_srcdir = /root/elfutils4sgx/elfutils-0.176/libdwelf
+abs_top_builddir = /root/elfutils4sgx/elfutils-0.176
+abs_top_srcdir = /root/elfutils4sgx/elfutils-0.176
 ac_ct_AR = ar
 ac_ct_CC = gcc
 am__include = include
@@ -318,7 +318,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/liuweijie/elfutils4sgx/elfutils-0.176/config/install-sh
+install_sh = ${SHELL} /root/elfutils4sgx/elfutils-0.176/config/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -339,7 +339,7 @@ target_alias =
 top_build_prefix = ../
 top_builddir = ..
 top_srcdir = ..
-zip_LIBS = -llzma 
+zip_LIBS = 
 AM_CPPFLAGS = -I. -I$(srcdir) -I$(top_srcdir)/lib -I.. \
 	-I$(srcdir)/../libelf -I$(srcdir)/../libdw \
 	-I$(srcdir)/../libdwfl -I$(srcdir)/../libebl
@@ -353,15 +353,15 @@ ARFLAGS = cr
 STACK_USAGE_WARNING = -Wstack-usage=262144
 #LOGICAL_OP_WARNING = 
 LOGICAL_OP_WARNING = -Wlogical-op
-#DUPLICATED_COND_WARNING = 
-DUPLICATED_COND_WARNING = -Wduplicated-cond
-#NULL_DEREFERENCE_WARNING = 
-NULL_DEREFERENCE_WARNING = -Wnull-dereference
-#IMPLICIT_FALLTHROUGH_WARNING = 
+DUPLICATED_COND_WARNING = 
+#DUPLICATED_COND_WARNING = -Wduplicated-cond
+NULL_DEREFERENCE_WARNING = 
+#NULL_DEREFERENCE_WARNING = -Wnull-dereference
+IMPLICIT_FALLTHROUGH_WARNING = 
 
 # Use strict fallthrough. Only __attribute__((fallthrough)) will prevent the
 # warning
-IMPLICIT_FALLTHROUGH_WARNING = -Wimplicit-fallthrough=5
+#IMPLICIT_FALLTHROUGH_WARNING = -Wimplicit-fallthrough=5
 AM_CFLAGS = -std=gnu99 -Wall -Wshadow -Wformat=2 \
 	    -Wold-style-definition -Wstrict-prototypes -Wtrampolines \
 	    $(LOGICAL_OP_WARNING) $(DUPLICATED_COND_WARNING) \

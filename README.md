@@ -1,7 +1,3 @@
-~~cp from my laptop: home/dyninst4sgxminidep/dyninst-build/elfutils~~
+If we use libelf to analysis the elf format file, then we may need a trampoline/springboard (for musl-libc to invoke syscall like 'read'/'pread').
 
-~~actually, the main dir should be ./src, and the build dir is ./src/LibElf-build~~
-
-if we don't use libelf to analysis the elf format file, then we need a trampoline/springboard (for musl libc to invoke syscall).
-
-the source code is in the libelf dir
+The source code is in the libelf dir.
